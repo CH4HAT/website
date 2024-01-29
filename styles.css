@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* display:; */
+}
+header{
+    height: 100px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width:100%;
+}
+nav {
+
+    float: left;
+    list-style-type: upper-latin;
+    padding-top: 0 1.5rem;
+    text-align: right;
+    height: 100%;
+}
+
+img{
+
+    float: left;
+    width: 15%;
+    text-align-last: center;
+    padding-left: 20px;
+    padding-right: 2%;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 70%;
+    margin-left: 8%;
+    text-align: left;
+    
+}
+
+
+form button {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: hsl(120, 56%, 40%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 5rem;
+    margin-left: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: teal;
+    display: block; 
+    padding: 5px;
+  }
+  a:hover {
+    background-color: black;
+  }
+  footer{
+    margin-top: auto;
+    background-color: teal;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav {
+      width: 100%;
+      position: relative;
+    }
+  
+    nav ul {
+      text-align: center;
+    }
+  
+    nav li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      float: left;
+    }
+  }
+ 
